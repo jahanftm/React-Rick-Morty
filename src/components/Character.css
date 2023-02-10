@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 45px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.character {
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    width: 58%;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    color: #3c3cbf;
+    background-color: white;
+}
+
+
+button {
+    height: 32px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: olivedrab;
+    border-radius: 4px;
+    color: white;
+}
